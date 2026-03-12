@@ -199,6 +199,36 @@ padding:10px 25px;
 cursor:pointer;
 }
 
+/* contato section background image opacity */
+.contato{
+    padding:60px 20px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.contato::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image:url('images/cidade.png');
+    background-size:cover;
+    background-position:center;
+    opacity:0.15;
+    z-index:0;
+}
+
+.contato h2,
+.contato p,
+.contato button{
+    position:relative;
+    z-index:1;
+}
+
+
 .contato{
 padding:60px 20px;
 text-align:center;
@@ -213,6 +243,23 @@ padding:12px 25px;
 margin-top:20px;
 cursor:pointer;
 }
+
+
+.contato::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-image:url('images/cidade.jpg');
+background-size:cover;
+background-position:center;
+opacity:0.;
+z-index:1;
+}
+
+
 
 footer{
 text-align:center;
