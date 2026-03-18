@@ -298,6 +298,25 @@ box-shadow:0 4px 10px rgba(0,0,0,0.3);
 transition:transform 0.2s;
 }
 
+.papelaria {
+padding: 60px 20px;
+text-align: center;
+}
+
+.imagens-papelaria {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.imagens-papelaria img {
+width: 200px;
+height: auto;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 .whatsapp-float img:hover{
 transform:scale(1.1);
 }
