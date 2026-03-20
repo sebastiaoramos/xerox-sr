@@ -95,7 +95,7 @@ margin-top:30px;
 }
 
 .card{
-background:white;
+background:rgb(255, 255, 255);
 padding:20px;
 width:220px;
 border-radius:10px;
@@ -317,18 +317,27 @@ border-radius: 5px;
 box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.imagens-papelaria img:hover {
+transform: scale(1.1);
+}
+
 .cartazes {
 padding: 60px 20px;
 text-align: center;
 background: #150053;
 color: white;
-
 }
+
+.cartazes h2 {
+padding: 20px;    
+margin-bottom: 40px;
+}
+
 
 .imagens-cartazes {
 display: flex;
 justify-content: center;
-gap: 20px;
+gap: 30px;
 flex-wrap: wrap;
 }    
 
@@ -337,6 +346,10 @@ width: 200px;
 height: auto;
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(171, 170, 170, 0.1);
+}
+
+.imagens-cartazes img:hover {
+transform: scale(1.1);
 }
 
 
