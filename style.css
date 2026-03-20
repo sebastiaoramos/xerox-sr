@@ -317,6 +317,29 @@ border-radius: 5px;
 box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.cartazes {
+padding: 60px 20px;
+text-align: center;
+background: #150053;
+color: white;
+
+}
+
+.imagens-cartazes {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}    
+
+.imagens-cartazes img {
+width: 200px;
+height: auto;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(171, 170, 170, 0.1);
+}
+
+
 .whatsapp-float img:hover{
 transform:scale(1.1);
 }
